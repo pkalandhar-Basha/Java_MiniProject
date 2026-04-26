@@ -1,0 +1,105 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    text-align:center;
+    background:linear-gradient(to right,#eaf6ff,#f8fcff);
+}
+
+/* Main Heading */
+h1{
+    color:darkblue;
+    margin-top:35px;
+    font-size:38px;
+    text-shadow:1px 1px 2px gray;
+}
+
+/* Sub Heading */
+h2{
+    color:#006666;
+    margin-top:20px;
+}
+
+/* Links / Buttons */
+a{
+    display:inline-block;
+    padding:12px 22px;
+    margin:8px;
+    background:green;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:17px;
+    transition:0.3s;
+}
+
+a:hover{
+    background:darkgreen;
+    transform:scale(1.05);
+}
+
+/* Form Container */
+.container{
+    width:450px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+/* Input Fields */
+input, select{
+    width:90%;
+    padding:10px;
+    margin:8px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:15px;
+}
+
+/* Submit Button */
+input[type=submit], button{
+    width:95%;
+    padding:12px;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:16px;
+    margin-top:10px;
+}
+
+input[type=submit]:hover,
+button:hover{
+    background:#0056b3;
+}
+
+/* Tables */
+table{
+    margin:25px auto;
+    border-collapse:collapse;
+    width:90%;
+    background:white;
+    box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+
+th{
+    background:#0066cc;
+    color:white;
+    padding:12px;
+}
+
+td{
+    padding:10px;
+    border:1px solid #ddd;
+}
+
+tr:nth-child(even){
+    background:#f2f2f2;
+}
+
+tr:hover{
+    background:#dff0ff;
+}
